@@ -1,0 +1,23 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5450,
+  "username": "postgres",
+  "password": "mysecretpassword",
+  "database": "resume_builder",
+  "logging": true,
+  "synchronize": false,
+  "logger": "simple-console",
+  "keepConnectionAlive": true,
+  "migrationsTableName": "migration",
+  "migrationsRun": true,
+  "entities": [
+    "D:\\mine\\cv-builder\\src\\config/../database/entity/*.entity.ts",
+    "D:\\mine\\cv-builder\\src\\config/../database/entity/*.entity.js"
+  ],
+  "migrations": [
+    "D:\\mine\\cv-builder\\src\\config/../database/migration/*.ts",
+    "D:\\mine\\cv-builder\\src\\config/../database/migration/*.js"
+  ],
+  "ssl": false
+}
